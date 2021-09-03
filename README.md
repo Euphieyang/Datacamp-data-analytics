@@ -12,10 +12,10 @@
 ### Dive into Python
 Two ways of executeing Code on DataCamp: IPython shell, script editor
 
-* IPython shell*
+* IPython shell
 
   * "the console"
-  * type a linf of code, use "return key" to execute it
+  * type a line of code, use "return key" to execute it
 
 * script editor
 
@@ -25,3 +25,20 @@ Two ways of executeing Code on DataCamp: IPython shell, script editor
 
 
   * use "Run Code" to execute them
+  
+**Moule**
+
+Groups related tools together, Ex: make bar chart, line chart, histogram
+
+Before write code, we need to import moduels, otherwise, we can't use their tools
+
+we can use alias to represent names of moduels 
+
+> import _____
+
+* Matplotlib: creat chart
+* Pandas: load tabular data (加載表格數據)
+* scikit-learn: perform ML
+* scipy: caontain statistics
+* nltk: works for text data
+* 
