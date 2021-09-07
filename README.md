@@ -65,13 +65,13 @@ We difine variable with equl size
   
 * Types
 
- * Float
+  * Float
  
     represents an integer or decimal number
    1. height=24
    2. weight= 75.5
  
- * String
+  * String
 
     represents text, letters, number, spaces, adn special characters
     
