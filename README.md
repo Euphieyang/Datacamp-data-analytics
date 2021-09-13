@@ -49,7 +49,7 @@ we can use alias to represent names of moduels
 
 
 ### Creating Variables
-we use vailables in our code, it will be replaced with the original piece of data
+we use variable in our code, it will be replaced with the original piece of data
 
 This way provides us an easy-to-use shortcuts to a piece of data
 
@@ -78,3 +78,32 @@ We difine variable with equl size
     we difine a string by putting '___'/"____" 
    1. name='Bayes'
    2. breed='Golden Retriever'
+
+### What is pandas?
+
+Panda is a module for working tabular data /w rows and columns(處理表格)
+
+* Tools
+
+  1. Loading tabular data from different sources (DataFrame)
+  2. Search for particular rows and columns
+  3. Calculate aggregate statistics (mean/ variance)
+  4. Combining data from mutiple sources
+  
+* DataFrame: Tabuular data(表格數據)
+
+  * Loading a CSV
+  
+   > import pandas as pd ➡ 將數據加載到DataFrame
+   
+   > df=pd.read_csv('CSV檔案名') ➡ CSV轉DataFrame, df是變數,可自行修改,CSV是逗號分隔的值,將表格樹存為純文件版本
+   
+   > print(df) ➡ 列出全部DataFrame
+   
+ * Inspecing a DataFrame
+ 
+   > df.head(不須打東西)➡ 屬於DataFrame變量,df是變數,可自行修改只出現前五句➡ head屬於dataframe變量,在句點之後出現在行的結尾= 方法(method)
+
+   > df.info() ➡數據資訊,有幾行幾列,資料類型
+
+   > print(df.head(不須打東西))
