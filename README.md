@@ -94,27 +94,27 @@ Panda is a module for working tabular data /w rows and columns(處理表格)
 
   * Loading a CSV
   
-   > import pandas as pd : 將數據加載到DataFrame
+    > import pandas as pd : 將數據加載到DataFrame
    
-   > df=pd.read_csv('CSV檔案名') : CSV轉DataFrame,
+    > df=pd.read_csv('CSV檔案名') : CSV轉DataFrame,
    
     ➡df是自取的變數名,CSV是逗號分隔的值,將表格樹存為純文件版本,記得加引號
    
-   > print(df) ➡ 列出全部DataFrame
+    > print(df) ➡ 列出全部DataFrame
    
- * Inspecing a DataFrame(表格)
+  * Inspecing a DataFrame(表格)
  
-   > df.head(none):顯示表格前五行 
+    > df.head(none):顯示表格前五行 
 
-   > print(df.head(none))
+    > print(df.head(none))
    
      ➡ 屬於DataFrame變量,df是自取的變數,可自行修改只出現前五句,括號內不須填寫任何東西
   
      ➡ head屬於dataframe變量,在句點之後出現在行的結尾= 方法(method)
 
-   > df.info(none): 顯示表格資訊  
+    > df.info(none): 顯示表格資訊  
    
-   > print(df.info(none))
+    > print(df.info(none))
    
      ➡有幾行幾列,資料類型
 
