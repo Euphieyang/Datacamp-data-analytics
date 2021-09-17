@@ -208,3 +208,72 @@ In order to create line plots, we need to impord matplotlib
    >plt.plot(data2.x_values, data2.y_values)
 
     💡兩資料繪製成一個圖表，Matplotlib會自動將兩線上不同的顏色(以此類推多個資料)
+
+### Adding text to plots
+
+When we show plots to our audience, we need to add a label to show what it importance is.
+
+
+1. Axes labels(軸標籤)
+
+   >plt.xlabel('___string name___')
+
+   >plt.ylabel('___string naem___')
+
+    💡 利用命令方式標記X/Y軸，將括號內填入字串，代表標籤
+    
+    💡 在輸入plt.show()之前
+    
+    
+2. Title(圖標題)
+
+   >plt.title('_____plot name____')
+
+    💡 括號內填入圖表標題，參數(圖表)是字串符號
+    
+    💡 在輸入plt.show()之前
+    
+    
+3. Legends(圖例)
+
+   >plt.plot(aditya.days, aditya.cases, label='Aditya')
+
+   >plt.plot(deshuan.days, deshuan.cases, label='Deshaun')
+
+   >plt.plot(mengfei.days, mengfei.cases, label='Mengfei')
+
+   >plt.legend()
+   
+    💡label= 在圖例中使用的字串
+    
+    💡要記得輸入plt.legend(),不然不會出現圖例,括號內不須輸入參數
+    
+    
+4.Arbitrary text(注釋)
+
+  >plt.text(xcord,ycord,'____Text message_____') 
+
+  >plt.text(5,9,'Unusually low H frequency')
+
+   💡this function includes three arguments: x座標, y座標, 顯示的文本(字串)
+   
+   💡在(5,9)標記 Unusually low H frequency
+   
+  
+5. Modifying text
+
+   * Change front size
+
+     >plt.title('Plot title', frontsize=20)
+
+   * Change front color
+
+     plt.legend(color='green')
+     
+### Adding some style     
+
+Let's make plots beautiful
+
+1. Changing line color
+
+   >plt. plot(x, y1, color='_____')
